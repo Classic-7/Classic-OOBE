@@ -190,12 +190,9 @@ namespace WindowsOOBERecreation
                         throw new Exception(error);
                     }
                 }
-
-                Console.WriteLine($"Time zone set to: {timeZoneId}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred while setting time zone: {ex.Message}");
             }
         }
 
@@ -243,11 +240,9 @@ namespace WindowsOOBERecreation
 
             if (!result)
             {
-                MessageBox.Show("Failed to set the system date.");
             }
             else
             {
-                MessageBox.Show("System date updated successfully!");
             }
         }
     }

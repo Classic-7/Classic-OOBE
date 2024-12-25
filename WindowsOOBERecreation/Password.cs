@@ -72,7 +72,6 @@ namespace WindowsOOBERecreation
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             ProductKey ProductKeyForm = new ProductKey(_mainForm);

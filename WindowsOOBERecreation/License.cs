@@ -31,12 +31,10 @@ namespace WindowsOOBERecreation
                 }
                 else
                 {
-                    MessageBox.Show("License file not found!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred while loading the license: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

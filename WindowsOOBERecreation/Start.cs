@@ -72,7 +72,7 @@ namespace WindowsOOBERecreation
                 else if (clickCount == 3)
                 {
                     clickTimer.Stop();
-                    MessageBox.Show("made with love by patricktbp");
+                    MessageBox.Show("made with love by patricktbp <3");
                     clickCount = 0;
                 }
             }
